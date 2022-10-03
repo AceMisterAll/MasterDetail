@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+      
+    <ion-title>detail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      
+      <div>
+        <ion-card-title> 
+          <ion-avatar>
+            <img src={{MonText.image}}>
+          </ion-avatar> 
+          {{MonText.prenom}}
+        </ion-card-title>
+      </div>
+
+    </ion-card-header>
+    <ion-card-content>
+      {{MonText.description}}
+    </ion-card-content>
+  </ion-card>
+  <div class="ion-padding">
+    {{MonText.nom}}
+    </div>
+    <div class="ion-padding">
+    {{MonText.prenom}}
+    </div>
+    <div class="ion-padding">
+    {{MonText.classe}}
+    </div>
+    <div class="ion-padding">
+    {{MonText.date_naissance}}
+    </div>
+</ion-content>
