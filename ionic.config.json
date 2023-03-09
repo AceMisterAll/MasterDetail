@@ -1,5 +1,7 @@
 {
   "name": "listDetail",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
