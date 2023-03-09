@@ -11,7 +11,7 @@
   <ion-list>
   <ion-item *ngFor="let film of listFilms" (click)="DetailFilm(film)">
     <ion-avatar>
-      <img src={{film.posterUrl}}>
+      <img alt="" src={{film.posterUrl}}>
     </ion-avatar> 
     <ion-label>
       <h2>{{film.title}}</h2>
